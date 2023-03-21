@@ -1,0 +1,38 @@
+2023-03-15 19:20:29.762 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: blade
+2023-03-15 19:20:29.763 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: ejs
+2023-03-15 19:20:29.763 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: latte
+2023-03-15 19:20:29.763 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: tpl
+2023-03-15 19:20:29.764 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: twig
+2023-03-15 19:20:29.775 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: vue
+2023-03-15 19:20:29.776 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: vue-html
+2023-03-15 19:20:29.776 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: django-html
+2023-03-15 19:20:29.776 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: jinja-html
+2023-03-15 19:20:29.776 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: erb
+2023-03-15 19:20:29.777 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: HTML (Eex)
+2023-03-15 19:20:29.777 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: volt
+2023-03-15 19:20:29.777 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: nunjucks
+2023-03-15 19:20:29.777 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2023-03-15 19:20:29.777 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: blade
+2023-03-15 19:20:29.778 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: vue
+2023-03-15 19:20:29.778 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: smarty
+2023-03-15 19:20:29.778 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: cfml
+2023-03-15 19:20:32.731 [info] [perf] Render performance baseline is 40ms
+2023-03-15 19:20:56.116 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: blade
+2023-03-15 19:20:56.116 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: ejs
+2023-03-15 19:20:56.117 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: latte
+2023-03-15 19:20:56.118 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: tpl
+2023-03-15 19:20:56.118 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: twig
+2023-03-15 19:20:56.118 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: vue
+2023-03-15 19:20:56.119 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: vue-html
+2023-03-15 19:20:56.119 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: django-html
+2023-03-15 19:20:56.119 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: jinja-html
+2023-03-15 19:20:56.120 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: erb
+2023-03-15 19:20:56.120 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: HTML (Eex)
+2023-03-15 19:20:56.120 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: volt
+2023-03-15 19:20:56.120 [error] [thekalinga.bootstrap4-vscode]: Unknown language in `contributes.bootstrap4-vscode.language`. Provided value: nunjucks
+2023-03-15 19:20:56.121 [error] [xabikos.JavaScriptSnippets]: Unknown language in `contributes.JavaScriptSnippets.language`. Provided value: vue
+2023-03-15 19:20:56.121 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: blade
+2023-03-15 19:20:56.121 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: vue
+2023-03-15 19:20:56.122 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: smarty
+2023-03-15 19:20:56.122 [error] [Zaczero.bootstrap-v4-snippets]: Unknown language in `contributes.bootstrap-v4-snippets.language`. Provided value: cfml
+2023-03-15 19:20:58.336 [info] [perf] Render performance baseline is 48ms

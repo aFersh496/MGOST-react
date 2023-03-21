@@ -1,0 +1,12 @@
+2023-03-15 19:20:31.975 [info] Log level: Info
+2023-03-15 19:20:31.975 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-03-15 19:20:31.976 [info] Using git "2.39.2.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2023-03-15 19:21:01.958 [info] Log level: Info
+2023-03-15 19:21:01.958 [info] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2023-03-15 19:21:01.958 [info] Using git "2.39.2.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2023-03-15 19:21:02.002 [info] > git rev-parse --show-toplevel [73ms]
+2023-03-15 19:21:02.002 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-15 19:21:02.070 [info] > git rev-parse --show-toplevel [62ms]
+2023-03-15 19:21:02.070 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-03-15 19:21:02.139 [info] > git rev-parse --show-toplevel [64ms]
+2023-03-15 19:21:02.139 [info] fatal: not a git repository (or any of the parent directories): .git

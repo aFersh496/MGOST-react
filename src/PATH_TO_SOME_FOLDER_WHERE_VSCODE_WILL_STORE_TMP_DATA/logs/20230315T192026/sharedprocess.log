@@ -1,0 +1,4 @@
+2023-03-15 19:20:30.546 [info] Starting worker process with pid 4144 (type: fileWatcher, window: 1).
+2023-03-15 19:20:31.338 [info] WSL is not installed, so could not detect WSL profiles
+2023-03-15 19:20:54.440 [info] Worker process with pid 4144 terminated normally (type: fileWatcher, window: 1).
+2023-03-15 19:20:55.463 [info] Starting worker process with pid 10760 (type: fileWatcher, window: 1).

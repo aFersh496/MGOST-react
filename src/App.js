@@ -9,6 +9,7 @@ import axios from 'axios';
 function App() {
   const [items, setItems] = React.useState([]);
   const [cartItems, setCartItems] = React.useState([]);
+  const [favorites, setFavorites] = React.useState([]);
   const [searchValue, setSearchValue] = React.useState('');
   const [cartOpened, setCartOpened] = React.useState(false);
 
@@ -33,10 +34,18 @@ const onAddToCart = (obj) => {
   axios.post('https://6418791775be53f451e06be7.mockapi.io/Cart',obj);
   setCartItems((prev) => [...prev, obj]);
 };
-const onRemoveItem =(id) =>{
-  //axios.delete(`https://6418791775be53f451e06be7.mockapi.io/Cart/${id}`);
-  setCartItems((prev) => [...prev, obj]);
+
+
+const onRemoveItem =(id) =>{ 
+  axios.delete(`https://6418791775be53f451e06be7.mockapi.io/Cart/${id}`);
+ // setCartItems((prev) => [...prev, obj]);
+  setCartItems((prev) => prev.filter((item) => item.id !== id));
 }
+
+const onAddToFavorite = (obj) => {
+  axios.post('https://6453cf2cc18adbbdfea850ec.mockapi.io/favorites',obj);
+  setFavorites((prev) => [...prev, obj]);
+};
   
 const onChangeSerchInput =(event)=>{
     setSearchValue(event.target.value);
@@ -69,7 +78,7 @@ const onChangeSerchInput =(event)=>{
         title={item.title}
         price={item.price}
         imageUrl={item.imageUrl}
-        onFavorite={() => console.log('Добавили в закладки')}
+        onFavorite={(obj) => onAddToFavorite(obj)}
         onPlus={(obj) => onAddToCart(obj)}
           />
           ))}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CartDrawer({onClose, items=[]}) {
+function CartDrawer({onClose, onRemove, items=[]}) {
     return(
         <div className="drawerShadow">
 
@@ -15,7 +15,7 @@ function CartDrawer({onClose, items=[]}) {
           {items.map((obj)=>(
               <div className="cartItem d-flex align-center mb-20">
                 <div 
-                   style={{ backgroundImage: 'url(/img/m1.jpg)' }}
+                   style={{ backgroundImage: 'url(${obj.imageUrl})' }}
                    className="cartItemImg"></div>
                 
                 
@@ -24,7 +24,7 @@ function CartDrawer({onClose, items=[]}) {
                   <p className="mb-5">{obj.title}</p>
                   <b>{obj.price}</b>
                 </div>
-                <img className="removeBtn ml-50" width={32} height= {32} src="img\dropcart.svg" alt="remove"/> 
+                <img onClick={()=>onRemove(obj.id)} className="removeBtn ml-50" width={32} height= {32} src="img\dropcart.svg" alt="remove"/> 
               </div>
     
             ))

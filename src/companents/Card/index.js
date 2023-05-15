@@ -2,9 +2,9 @@ import styles from './Card.module.scss'
 import React from 'react';
 
 
-function Card({ title, imageUrl, price, onFavorite, onPlus, favorited=false }) {
+function Card({ id, title, imageUrl, price, onFavorite, onPlus, favorited = false }) {
   const [isAdded, setIsAdded] = React.useState(false);
-  const [isFavorite,setIsFavorite] = React.useState(favorited);
+  const [isFavorite, setIsFavorite] = React.useState(favorited);
   
   const onClickPlus = () => {
     onPlus({ title, imageUrl, price });
@@ -12,13 +12,13 @@ function Card({ title, imageUrl, price, onFavorite, onPlus, favorited=false }) {
   };
 
   const onClickFavorite = () => {
-    onFavorite({title, imageUrl, price});
+    onFavorite({ id, title, imageUrl, price });
     setIsFavorite(!isFavorite);
   };
 
     return(
       <div className={styles.card}>
-      <div className={styles.favorite}  onClick={onClickFavorite}>
+        <div className={styles.favorite} onClick={onClickFavorite}>
     <img src={isFavorite ?  'img/like.svg':'img/nolike.svg'} width={30} height={30} alt="unliked"/>
     </div>
     <img width={180} height={180} src={imageUrl}alt=""/>
@@ -35,9 +35,8 @@ function Card({ title, imageUrl, price, onFavorite, onPlus, favorited=false }) {
         src={isAdded ?  'img/yeah.svg':'img/plus.png'}
         alt="Plus"
         />
-      
+      </div>
     </div>
-    </div>
-    );
+  );
 }
 export default Card;

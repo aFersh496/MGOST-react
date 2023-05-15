@@ -1,6 +1,6 @@
 import React from 'react';
 
-function CartDrawer({onClose, onRemove, items=[]}) {
+function CartDrawer({ onClose, onRemove, items = [] }) {
     return(
         <div className="drawerShadow">
 

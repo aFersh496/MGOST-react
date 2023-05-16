@@ -1,4 +1,4 @@
-import Card from '../components/Card/';
+import Card from '../companents/Card/';
 //import Card from '../src/components/Card/index.js'
 
 function Favorites({ items, onAddToFavorite }) {

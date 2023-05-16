@@ -8,15 +8,20 @@ function Header(props){
     <Link to="/"> 
     <div className="d-flex align-center">
     
-      <img width={40} height= {40} src="img\Pepsi2008.gif" alt='q'/>
+      <img  height= {35} src="img\logo.png" alt='q'/>
       
       <div >
-        <h3 className="text-uppercase">MGOST</h3>
-        <p className="opacity-5">Магазин мебели</p>
+        <h3 className="text-uppercase">GOST-мебель</h3>
+        <p className="opacity-5">Новосибирская мебельно-производственная фирма </p>
+       
       </div>
     </div>
     </Link>
-
+    <br/> <div className="d-flex justify-between">
+      
+    </div>
+    
+ 
     <ul className="d-flex"> 
     <li onClick={props.onClickCart} className="mr-20 cu-p">
         <img width={18} height= {18} src="img\korzina.png" alt='q'/>
@@ -31,7 +36,13 @@ function Header(props){
       <li>
       <img width={18} height= {18} src="img\Union.png"alt='q'/>
       </li>
-    </ul>
+    </ul> 
+    
+    
+   
+   
+    
+    
   </header>
     );
 }

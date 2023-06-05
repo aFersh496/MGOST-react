@@ -4,7 +4,8 @@ function Header(props){
  
 
     return(
-    <header className="d-flex justify-between align-center p-40">
+    <header className="d-flex justify-between align-center p-15">
+      <ul><li>
     <Link to="/"> 
     <div className="d-flex align-center">
     
@@ -17,15 +18,38 @@ function Header(props){
       </div>
     </div>
     </Link>
-    <br/> <div className="d-flex justify-between">
-      
-    </div>
+    </li>
+    <li>
+<ul className="d-flex mt-20 ml-50 ">
+  <li>
+<div className="mr-20 cu-p">ассортимент </div>
+  </li>
+
+  <li>
+<div className="mr-20 cu-p">конструктор </div>
+  </li>
+
+  <li>
+<div className="mr-20 cu-p">контакты</div>
+  </li>
+  <li>
+<div className="mr-20 cu-p">отзывы</div>
+  </li>
+</ul>
+
+
+    </li>
+    </ul>
     
- 
-    <ul className="d-flex"> 
+
+
+    <ul>
+<li>
+
+    <ul className="d-flex mr-30"> 
     <li onClick={props.onClickCart} className="mr-20 cu-p">
         <img width={18} height= {18} src="img\korzina.png" alt='q'/>
-        <span>   15000 руб.</span>
+        <span> </span>
       </li>
       <li className="mr-20 cu-p">
         <Link to="/favorites">
@@ -37,13 +61,15 @@ function Header(props){
       <img width={18} height= {18} src="img\Union.png"alt='q'/>
       </li>
     </ul> 
-    
-    
+</li>
+
+    </ul>
    
    
     
     
-  </header>
+  </header> 
+  
     );
 }
 export default Header;

@@ -1,7 +1,7 @@
 import Card from '../companents/Card';
 
 
-function Home({
+function Assortiment({
     items,
     searchValue,
     setSearchValue,
@@ -14,9 +14,7 @@ function Home({
             <div className="content p-40">
               
               
-               <div>
-                   <img className="d-flex align-center" width={1000} src="img\prev.png" alt='q'/>
-               </div>
+               
               <div className="d-flex align-center justify-between mb-40">
                 <h1> АССОРТИМЕНТ</h1>
                
@@ -45,4 +43,4 @@ function Home({
               );
             }
             
-            export default Home;
+            export default Assortiment;

@@ -6,6 +6,7 @@ import CartDrawer from "./companents/CartDrawer";
 import Header from "./companents/Header";
 import Home from './pages/Home';
 import Favorites from './pages/Favorites';
+import Assortiment from './pages/Assortiment';
 
 
 

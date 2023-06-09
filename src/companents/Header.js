@@ -21,19 +21,21 @@ function Header(props){
     </li>
     <li>
 <ul className="d-flex mt-20 ml-50 ">
-  <li>
-<div className="mr-20 cu-p">ассортимент </div>
+  <li> <Link to="/Assortiment">
+<div className="mr-20 cu-p">ассортимент </div> </Link>
+  </li>
+ 
+        
+       
+  <li><Link to="/Konstructr">
+<div className="mr-20 cu-p">конструктор </div> </Link>
   </li>
 
-  <li>
-<div className="mr-20 cu-p">конструктор </div>
+  <li><Link to="/Contacts">
+<div className="mr-20 cu-p">контакты</div></Link>
   </li>
-
-  <li>
-<div className="mr-20 cu-p">контакты</div>
-  </li>
-  <li>
-<div className="mr-20 cu-p">отзывы</div>
+  <li><Link to="/Otzevs">
+<div className="mr-20 cu-p">отзывы</div></Link>
   </li>
 </ul>
 

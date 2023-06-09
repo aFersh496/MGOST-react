@@ -4,12 +4,19 @@ import axios from 'axios';
 import {   Route } from 'react-router-dom';
 import CartDrawer from "./companents/CartDrawer";
 import Header from "./companents/Header";
+import Footer from "./companents/Footer";
 import Home from './pages/Home';
 import Favorites from './pages/Favorites';
 import Assortiment from './pages/Assortiment';
-
-
-
+import Konstructr from './pages/Konstructr';
+import Contacts from './pages/Contacts';
+import Otzevs from './pages/Otzevs';
+import Navesn from './pages/Navesn';
+import Napol from './pages/Napol';
+import Stols from './pages/Stols';
+import Styls from './pages/Styls';
+import Akkses from './pages/Akkses';
+import Moiks from './pages/Moiks';
 
 
 function App() {
@@ -89,10 +96,103 @@ const onChangeSearchInput = (event) => {
           onAddToCart={onAddToCart}
         />
       </Route>
+      <Route path="/Assortiment" exact>
+        <Assortiment
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        /></Route>
+   <Route path="/Navesn" exact>
+        <Navesn
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+
+      </Route>
+
+      <Route path="/Napol" exact>
+        <Napol
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+      </Route>
+   <Route path="/Stols" exact>
+        <Stols
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+      </Route>
+      <Route path="/Styls" exact>
+        <Styls
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+      </Route>
+
+      <Route path="/Moiks" exact>
+        <Moiks
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+      </Route>
+
+      <Route path="/Akkses" exact>
+        <Akkses
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+      </Route>
+
+      <Route path="/Konstructr" exact>
+        <Konstructr
+          items={items}
+          searchValue={searchValue}
+          setSearchValue={setSearchValue}
+          onChangeSearchInput={onChangeSearchInput}
+          onAddToFavorite={onAddToFavorite}
+          onAddToCart={onAddToCart}
+        />
+      </Route> 
+      <Route path="/Contacts" exact>
+        <Contacts />
+      </Route> 
+
+      <Route path="/Otzevs" exact>
+        <Otzevs />
+      </Route> 
 
       <Route path="/favorites" exact>
         <Favorites items={favorites} onAddToFavorite={onAddToFavorite} />
       </Route>
+     <div > <Footer></Footer>
+      </div> 
     </div>
   );
 }

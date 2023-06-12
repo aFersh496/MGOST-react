@@ -1,5 +1,5 @@
 import Card from '../companents/Card';
-
+import * as THREE from 'three';
 
 function Konstructr({
     items,
@@ -13,7 +13,10 @@ function Konstructr({
     return(
             <div className="content p-30 ">
               <h1> КОНСТРУКТОР</h1>
-              
+                  
+                   
+                
+               
            
                 </div>
                 

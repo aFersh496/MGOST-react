@@ -1,7 +1,7 @@
 
 import React from 'react';
 import axios from 'axios';
-import {   Route } from 'react-router-dom';
+import {   Route, Switch } from 'react-router-dom';
 import CartDrawer from "./companents/CartDrawer";
 import Header from "./companents/Header";
 import Footer from "./companents/Footer";
@@ -17,6 +17,10 @@ import Stols from './pages/Stols';
 import Styls from './pages/Styls';
 import Akkses from './pages/Akkses';
 import Moiks from './pages/Moiks';
+import UhomePages from 'pages/UhomePages';
+import UregisPages from 'pages/UregisPages';
+import UloginPages from 'pages/UloginPages';
+
 
 
 function App() {
@@ -84,7 +88,12 @@ const onChangeSearchInput = (event) => {
          onRemove={onRemoveItem} />
       )}
      <Header onClickCart={() => setCartOpened(true)} />
-      
+      <Switch>
+          <Route exact path="/uhomepages" component={UhomePages}/>
+          <Route exact path="/login" component={UloginPages}/>
+          <Route exact path="/register" component={UregisPages}/>
+
+      </Switch>
         
      <Route path="/" exact>
         <Home

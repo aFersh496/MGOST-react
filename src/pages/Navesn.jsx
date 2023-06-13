@@ -3,6 +3,7 @@ import Card from '../companents/Card';
 
 function Navesn({
     items,
+    itemsNav,
     searchValue,
     setSearchValue,
     onChangeSearchInput,
@@ -30,14 +31,14 @@ function Navesn({
                 </div>
             </div>
             <div className="d-flex flex-wrap">
-            {items
-          .filter((item) => item.title.toLowerCase().includes(searchValue.toLowerCase()))
-          .map((item, index) => (
+            {itemsNav
+          .filter((itemNav) => itemNav.title.toLowerCase().includes(searchValue.toLowerCase()))
+          .map((itemNav, index) => (
                     <Card
                     key={index}
                     onFavorite={(obj) => onAddToFavorite(obj)}
                     onPlus={(obj) => onAddToCart(obj)}
-                    {...item}
+                    {...itemNav}
                   />
                   ))}
                   </div>

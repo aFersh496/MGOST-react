@@ -19,14 +19,14 @@ const Login = ()=>{
                 id:user.uid,
                 token:user.accessToken,
             }));
-            push('/uhomepages')
+            push('/')
             
          })
             .catch(console.error)
         }
     return(
        < Form
-            title="login"
+            title="ВОЙТИ"
             handleClick={handleLogin}
        />
     )

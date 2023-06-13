@@ -25,6 +25,7 @@ import UloginPages from 'pages/UloginPages';
 
 function App() {
   const [items, setItems] = React.useState([]);
+  const [itemsNav, setItemsNav] = React.useState([]);
   const [cartItems, setCartItems] = React.useState([]);
   const [favorites, setFavorites] = React.useState([]);
   const [searchValue, setSearchValue] = React.useState('');
@@ -40,6 +41,9 @@ function App() {
     });*/
     axios.get('https://6418791775be53f451e06be7.mockapi.io/items').then((res) => {
       setItems(res.data);
+    });
+    axios.get('https://6418791775be53f451e06be7.mockapi.io/items').then((res) => {
+      setItemsNav(res.data);
     });
     axios.get('https://6418791775be53f451e06be7.mockapi.io/Cart').then((res) => {
       setCartItems(res.data);
@@ -116,7 +120,8 @@ const onChangeSearchInput = (event) => {
         /></Route>
    <Route path="/Navesn" exact>
         <Navesn
-          items={items}
+          
+          itemsNav={itemsNav}
           searchValue={searchValue}
           setSearchValue={setSearchValue}
           onChangeSearchInput={onChangeSearchInput}

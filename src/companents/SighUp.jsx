@@ -19,14 +19,14 @@ const SignUp = ()=>{
                     id:user.uid,
                     token:user.accessToken,
                 }))
-                push('/')
+                push('/Napol')
             })
             .catch(console.error)
      }
 
     return(
        < Form
-            title="register"
+            title="ЗАРЕГИСТРИРОВАТЬСЯ"
             handleClick={handleRegister}
        />
     )

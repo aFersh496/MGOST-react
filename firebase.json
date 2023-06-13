@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "react-mebel",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

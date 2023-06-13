@@ -102,6 +102,15 @@ h6{
   border: 1px solid #f3f3f3;
   border-radius: 20px;
   overflow: hidden;
+  padding: 20px;
+  .cartItemImg {
+    height: 70px;
+    width: 70px;
+    background-size: contain;
+    background-position: 0 -3px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+  }
   p{
     font-size: 16px;
   }
